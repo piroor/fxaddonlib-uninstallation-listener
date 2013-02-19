@@ -9,9 +9,8 @@
    });
 
  license: The MIT License, Copyright (c) 2009-2011 YUKI "Piro" Hiroshi
-   http://github.com/piroor/fxaddonlibs/blob/master/license.txt
  original:
-   http://github.com/piroor/fxaddonlibs/blob/master/UninstallationListener.js
+   http://github.com/piroor/fxaddonlib-uninstallation-listener
 */
 
 /* To work as a JS Code Module  */
