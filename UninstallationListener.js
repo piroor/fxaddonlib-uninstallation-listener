@@ -97,5 +97,15 @@ UninstallationListener.prototype = {
 
 		AddonManager.removeAddonListener(this);
 		ObserverService.removeObserver(this, 'quit-application-granted');
+	},
+
+	observe : function(aSubject, aTopic, aData)
+	{
+		switch (aTopic)
+		{
+			case 'quit-application-granted':
+				this.destroy();
+				return;
+		}
 	}
 };
